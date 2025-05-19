@@ -52,5 +52,5 @@ Ce projet est sous licence **privée**. Tous droits réservés à **Crapules Exp
 ## 🤝 Contact
 
 Pour toute question, suggestion ou bug :
-- Contacte **@,erfine** sur Discord
+- Contacte **@nerfine** sur Discord
 - Ou crée une *issue* sur ce dépôt
