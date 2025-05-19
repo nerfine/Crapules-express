@@ -26,4 +26,4 @@ Ces conditions peuvent être modifiées à tout moment. Les utilisateurs seront 
 
 ---
 
-📧 Pour toute question, contactez @Nerfine sur Discord.
+📧 Pour toute question, contactez @nerfine ou la direction sur Discord.
