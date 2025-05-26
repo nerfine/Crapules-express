@@ -16,7 +16,6 @@ Ce bot a été développé spécifiquement pour gérer les **recrutements**, les
   - Réservations et invitations de convois
 - 📋 **Formulaire de recrutement** en plusieurs étapes, interactif (boutons + embed évolutif)
 - ✅ Validation RH avec **boutons "accepter", "refuser", "blacklist"**
-- 🧾 Génération automatique de **transcripts HTML** (BotGhost)
 - 🔒 **Limitation à 3 tentatives** de candidature avec blocage automatique
 - 🛑 **Suppression automatique** d’un salon de recrutement **après 24h d’inactivité**
 - 👥 Système de **votings internes RH/Direction** pour les recrutements
