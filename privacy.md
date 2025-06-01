@@ -1,8 +1,9 @@
 # 🔒 Politique de confidentialité – Crapules Express Bot
 
-**Dernière mise à jour : 26 mai 2025**
+**Dernière mise à jour : 01 Juin 2025**
 
-Crapules Express s’engage à respecter la vie privée de ses utilisateurs. Cette politique décrit comment les données collectées par notre bot Discord sont traitées et protégées.
+Crapules Express s’engage à respecter la vie privée de ses utilisateurs.  
+Cette politique décrit comment les données collectées par notre bot Discord sont traitées, stockées et sécurisées.
 
 ---
 
@@ -12,7 +13,8 @@ Le bot peut enregistrer les données suivantes :
 
 - Identifiants Discord (nom d’utilisateur, ID)
 - Réponses aux questionnaires de recrutement
-- Informations internes (statut RH, blacklist, historique de tentatives)
+- Informations internes (statut RH, blacklist, nombre de tentatives, casier, historique)
+- Logs automatisés de recrutement, blacklist/whitelist, départs détectés
 
 > 🔒 Aucune donnée personnelle externe à Discord n’est collectée.
 
@@ -20,59 +22,76 @@ Le bot peut enregistrer les données suivantes :
 
 ## 2. 🎯 Utilisation des données
 
-Les données collectées sont utilisées exclusivement pour :
+Les données sont utilisées exclusivement pour :
 
 - Gérer les candidatures au sein de la VTC
-- Assurer le suivi RH et administratif
-- Organiser les tickets liés aux convois, questions ou recrutements
+- Assurer le suivi RH (tentatives, statuts, périodes d’essai)
+- Archiver et suivre les dossiers des chauffeurs
+- Gérer les systèmes automatisés : tickets, casiers, logs, notifications
+- Assurer une modération efficace (blacklist, refus automatiques)
 
 ---
 
 ## 3. 🗄️ Stockage des données
 
-- Les données temporaires sont conservées dans des salons Discord privés, visibles uniquement par le staff concerné.
-- Les informations sensibles (comme les ID utilisateur, historique de tentatives, statuts) sont stockées sur un **VPS auto-hébergé**, géré localement sur un **PC portable appartenant à l’administrateur**.
+- Les données temporaires sont conservées dans des salons privés Discord, accessibles uniquement au staff.
+- Les données critiques sont stockées en **base locale** sur un **VPS auto-hébergé**, situé sur un **PC portable sécurisé appartenant à l’administrateur**.
 
-> Aucune donnée n’est partagée avec des services tiers.
+> Aucune donnée n’est transférée à des services externes ou à des entreprises tierces.
 
 ---
 
-## 4. 🕓 Suppression automatique en cas d’inactivité
+## 4. 🕓 Suppression et inactivité
 
-Dans le cadre du système de recrutement, un **salon temporaire** est ouvert lorsqu’un utilisateur commence un ticket.
+### Recrutement :
+- Si un utilisateur n’interagit pas avec le bouton “Commencer” dans un délai de **24 heures**, le salon est automatiquement supprimé.
+- Les réponses ne sont **jamais enregistrées** tant que le questionnaire n’a pas été entamé.
 
-- Si l’utilisateur **ne clique pas sur “Commencer”** dans les **24 heures**, le salon est **automatiquement supprimé** pour des raisons de fluidité et de confidentialité.
-- Aucune réponse n’est enregistrée tant que le formulaire n’a pas été lancé.
-- Ce mécanisme permet de limiter la conservation inutile de tickets inactifs.
+### Données internes :
+- Les candidatures sont automatiquement supprimées **après 30 jours**.
+- Les casiers sont archivés si un chauffeur quitte le serveur.
+- En cas de blacklist, les données sont conservées sauf demande contraire.
 
-> 🧪 Fonction en cours de test pour garantir sa fiabilité sur toutes les plateformes.
+> 🧪 Fonction de suppression automatique en cours de test pour améliorer la confidentialité et la fluidité.
 
 ---
 
 ## 5. 🔐 Accès restreint
 
-L’accès aux données est strictement limité aux :
+Seuls les rôles suivants ont accès aux données :
 
-- Responsables RH et DRH
-- Membres de la Direction de Crapules Express
-
----
-
-## 6. 🧹 Suppression des données
-
-- Les données de candidature sont automatiquement supprimées **après 30 jours**.
-- L’utilisateur peut demander la **suppression immédiate** de ses données via un ticket ou en contactant un membre de la Direction.
+- Développeur principal (Nerfine)
 
 ---
 
-## 7. 📜 Modifications de la politique
+## 6. 🧹 Suppression des données (sur demande)
 
-Cette politique peut être modifiée à tout moment sans préavis.  
-La version la plus récente est toujours disponible publiquement sur notre [GitHub](https://github.com/Nerfine).
+Tout utilisateur peut demander la **suppression immédiate** de ses données à tout moment :
+
+- En ouvrant un ticket dans la section **Question Direction**
+- Ou en contactant directement **@nerfine** sur Discord
+
+---
+
+## 7. 🌐 Traduction
+
+Le bot propose un système de **traduction par réaction** pour les messages textuels :  
+Ajoutez une réaction 🌐 `:globe_with_meridians:` ou 🇬🇧 `:flag_gb:` / 🇺🇸 `:flag_us:` pour traduire un message.
+
+> ℹ️ Les embeds ne peuvent pas être traduits automatiquement.
+
+---
+
+## 8. 📜 Modifications de cette politique
+
+Cette politique est sujette à modifications sans préavis.  
+La version la plus récente est toujours disponible sur notre GitHub officiel :  
+🔗 [https://github.com/Nerfine/Crapules-express](https://github.com/Nerfine/Crapules-express)
 
 ---
 
 ## 📩 Contact
 
-Pour toute question ou demande liée à vos données, contactez **@nerfine** sur Discord  
-ou ouvrez un ticket dans la catégorie **Question Direction**.
+Pour toute demande liée à vos données personnelles :  
+➡️ Ouvrez un ticket dans **Question Direction**  
+ou contactez directement **@nerfine** sur Discord.
