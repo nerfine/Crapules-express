@@ -1,4 +1,4 @@
-# 🚚 Crapules Express - Discord Bot ![Version](https://img.shields.io/badge/version-1.4.6-blue.svg)
+# 🚚 Crapules Express - Discord Bot ![Version](https://img.shields.io/badge/version-1.4.7-blue.svg)
 
 Bienvenue dans le dépôt officiel du bot Discord de **Crapules Express**, une VTC virtuelle sur le jeu *Euro Truck Simulator 2* (ETS2).
 
