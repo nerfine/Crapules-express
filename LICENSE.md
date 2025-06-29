@@ -1,42 +1,50 @@
-# 📜 License and Copyright
+# 📜 Terms of Use & Copyright
 
 ---
 
 ## 🔐 Copyright
 
-This project is protected by copyright under Articles L111-1 et seq. of the French Intellectual Property Code.
+This project is protected under copyright law in accordance with Articles **L111-1 and following** of the *French Intellectual Property Code*.
 
-The author, Nerfine, retains all rights to this software, even if it is distributed free of charge.
+The author, **Nerfine**, retains full rights to this software, even if it is distributed free of charge.
 
-Any reproduction, distribution, modification, or reuse of the code without explicit permission is prohibited, unless otherwise stated in a license below.
+Any reproduction, distribution, modification, or reuse of the code without prior written permission is strictly prohibited, unless otherwise stated in the “License” section below.
 
 ---
 
 ## 📦 Authorized Use
 
 ✅ Personal and non-commercial use
-✅ Credit to the creator for public use
+✅ Clear credit to the author when used publicly
 
-❌ Resale prohibited
-❌ Removal of author credit prohibited
-❌ Publication of a modified version without authorization
+❌ Resale is prohibited
+❌ Removing author attribution is prohibited
+❌ Publishing a modified version without permission is prohibited
 
 ---
 
-## 📃 Deposit of the work
+## 📄 License
 
-The author may have timestamped or deposited this work via:
-- Soleau Envelope (INPI)
-- Blockchain timestamping service
-- Deposit with the APP (Program Protection Agency)
+This software is **not released under an open source license**. All use is governed by the terms above. For commercial or public adaptation, a custom license is required.
+
+---
+
+## 🗂 Work Registration
+
+The author may have timestamped or registered this work through one of the following methods:
+
+* *Enveloppe Soleau* (INPI, France)
+* Blockchain timestamping service
+* Registration with **APP** (*Agence pour la Protection des Programmes*)
 
 ---
 
 ## 📫 Contact
 
-For any special license requests, commercial use, or collaboration:
-**→ nerfine on Discord
+For any request regarding **commercial licenses**, **collaboration**, or **special usage**, please contact:
+→ **nerfine** on Discord
+*(An email address can be provided upon request)*
 
 ---
 
-© 2025 Nerfine — All rights reserved.
+© 2025 **Crapules Express** — All rights reserved.
