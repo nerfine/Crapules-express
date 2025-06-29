@@ -1,42 +1,42 @@
-# 📜 Licence et droits d'auteur
+# 📜 License and Copyright
 
 ---
 
-## 🔐 Droits d'auteur
+## 🔐 Copyright
 
-Ce projet est protégé par le droit d’auteur selon les articles L111-1 et suivants du Code de la propriété intellectuelle (France).
+This project is protected by copyright under Articles L111-1 et seq. of the French Intellectual Property Code.
 
-L’auteur, Nerfine, conserve l’ensemble des droits sur ce logiciel, même s’il est distribué gratuitement.
+The author, Nerfine, retains all rights to this software, even if it is distributed free of charge.
 
-Toute reproduction, distribution, modification ou réutilisation du code sans autorisation explicite est interdite, sauf mention contraire dans une licence ci-dessous.
-
----
-
-## 📦 Usage autorisé
-
-✅ Utilisation personnelle et non commerciale  
-✅ Mention du créateur lors de l’utilisation publique
-
-❌ Revente interdite  
-❌ Suppression de la mention de l’auteur interdite  
-❌ Publication d’une version modifiée sans autorisation
+Any reproduction, distribution, modification, or reuse of the code without explicit permission is prohibited, unless otherwise stated in a license below.
 
 ---
 
-## 📃 Dépôt de l'œuvre
+## 📦 Authorized Use
 
-L’auteur peut avoir horodaté ou déposé cette œuvre via :
-- Enveloppe Soleau (INPI)
-- Service d’horodatage blockchain
-- Dépôt auprès de l’APP (Agence de Protection des Programmes)
+✅ Personal and non-commercial use
+✅ Credit to the creator for public use
+
+❌ Resale prohibited
+❌ Removal of author credit prohibited
+❌ Publication of a modified version without authorization
+
+---
+
+## 📃 Deposit of the work
+
+The author may have timestamped or deposited this work via:
+- Soleau Envelope (INPI)
+- Blockchain timestamping service
+- Deposit with the APP (Program Protection Agency)
 
 ---
 
 ## 📫 Contact
 
-Pour toute demande de licence spéciale, usage commercial ou collaboration :
-**→ nerfine sur discord
+For any special license requests, commercial use, or collaboration:
+**→ nerfine on Discord
 
 ---
 
-© 2025 Nerfine — Tous droits réservés.
+© 2025 Nerfine — All rights reserved.
