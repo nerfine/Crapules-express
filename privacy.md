@@ -1,6 +1,6 @@
 # 🔒 Privacy Policy – Crapules Express Bot
 
-**Last updated: June 1, 2025**
+**Last updated: June 30, 2025**
 
 Crapules Express is committed to respecting the privacy of its users.  
 This policy explains how data collected by our Discord bot is processed, stored, and protected.
