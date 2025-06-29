@@ -1,97 +1,99 @@
-# 🔒 Politique de confidentialité – Crapules Express Bot
+# 🔒 Privacy Policy – Crapules Express Bot
 
-**Dernière mise à jour : 01 Juin 2025**
+**Last updated: June 1, 2025**
 
-Crapules Express s’engage à respecter la vie privée de ses utilisateurs.  
-Cette politique décrit comment les données collectées par notre bot Discord sont traitées, stockées et sécurisées.
-
----
-
-## 1. 📥 Données collectées
-
-Le bot peut enregistrer les données suivantes :
-
-- Identifiants Discord (nom d’utilisateur, ID)
-- Réponses aux questionnaires de recrutement
-- Informations internes (statut RH, blacklist, nombre de tentatives, casier, historique)
-- Logs automatisés de recrutement, blacklist/whitelist, départs détectés
-
-> 🔒 Aucune donnée personnelle externe à Discord n’est collectée.
+Crapules Express is committed to respecting the privacy of its users.  
+This policy explains how data collected by our Discord bot is processed, stored, and protected.
 
 ---
 
-## 2. 🎯 Utilisation des données
+## 1. 📥 Data Collected
 
-Les données sont utilisées exclusivement pour :
+The bot may collect the following data:
 
-- Gérer les candidatures au sein de la VTC
-- Assurer le suivi RH (tentatives, statuts, périodes d’essai)
-- Archiver et suivre les dossiers des chauffeurs
-- Gérer les systèmes automatisés : tickets, casiers, logs, notifications
-- Assurer une modération efficace (blacklist, refus automatiques)
+- Discord identifiers (username, ID)  
+- Recruitment form responses  
+- Internal information (HR status, blacklist status, application attempts, profile records, history)  
+- Automated logs of recruitment, blacklist/whitelist actions, user departures
 
----
-
-## 3. 🗄️ Stockage des données
-
-- Les données temporaires sont conservées dans des salons privés Discord, accessibles uniquement au staff.
-- Les données critiques sont stockées en **base locale** sur un **VPS auto-hébergé**, situé sur un **PC portable sécurisé appartenant à l’administrateur**.
-
-> Aucune donnée n’est transférée à des services externes ou à des entreprises tierces.
+> 🔒 No personal data outside of Discord is collected.
 
 ---
 
-## 4. 🕓 Suppression et inactivité
+## 2. 🎯 Purpose of Data Use
 
-### Recrutement :
-- Si un utilisateur n’interagit pas avec le bouton “Commencer” dans un délai de **24 heures**, le salon est automatiquement supprimé.
-- Les réponses ne sont **jamais enregistrées** tant que le questionnaire n’a pas été entamé.
+Collected data is exclusively used to:
 
-### Données internes :
-- Les candidatures sont automatiquement supprimées **après 30 jours**.
-- Les casiers sont archivés si un chauffeur quitte le serveur.
-- En cas de blacklist, les données sont conservées sauf demande contraire.
-
-> 🧪 Fonction de suppression automatique en cours de test pour améliorer la confidentialité et la fluidité.
+- Manage applications within the VTC  
+- Track HR processes (attempts, statuses, trial periods)  
+- Archive and follow up on driver profiles  
+- Power automated systems: tickets, profiles, logs, notifications  
+- Ensure efficient moderation (blacklists, auto-denials)
 
 ---
 
-## 5. 🔐 Accès restreint
+## 3. 🗄️ Data Storage
 
-Seuls les rôles suivants ont accès aux données :
+- Temporary data is kept in private Discord channels accessible only to staff.  
+- Critical data is stored **locally** on a **self-hosted VPS**, located on a **secured personal laptop owned by the administrator**.
 
-- Développeur principal (Nerfine)
-
----
-
-## 6. 🧹 Suppression des données (sur demande)
-
-Tout utilisateur peut demander la **suppression immédiate** de ses données à tout moment :
-
-- En ouvrant un ticket dans la section **Question Direction**
-- Ou en contactant directement **@nerfine** sur Discord
+> No data is shared with external services or third-party companies.
 
 ---
 
-## 7. 🌐 Traduction
+## 4. 🕓 Deletion & Inactivity
 
-Le bot propose un système de **traduction par réaction** pour les messages textuels :  
-Ajoutez une réaction 🌐 `:globe_with_meridians:` ou 🇬🇧 `:flag_gb:` / 🇺🇸 `:flag_us:` pour traduire un message.
+### Recruitment:
 
-> ℹ️ Les embeds ne peuvent pas être traduits automatiquement.
+- If a user does not click the "Start" button within **24 hours**, the channel is automatically deleted.  
+- No answers are **ever saved** unless the questionnaire is started.
+
+### Internal Data:
+
+- Applications are automatically deleted **after 30 days**.  
+- Profiles are archived if a driver leaves the server.  
+- Blacklisted users’ data is kept unless a removal request is submitted.
+
+> 🧪 An automatic deletion feature is currently in testing to improve privacy and efficiency.
 
 ---
 
-## 8. 📜 Modifications de cette politique
+## 5. 🔐 Restricted Access
 
-Cette politique est sujette à modifications sans préavis.  
-La version la plus récente est toujours disponible sur notre GitHub officiel :  
+Only the following roles have access to the data:
+
+- Lead Developer (Nerfine)
+
+---
+
+## 6. 🧹 Data Deletion (on request)
+
+Any user may request **immediate deletion** of their data at any time by:
+
+- Opening a ticket in the **Management Questions** section  
+- Or directly contacting **@nerfine** on Discord
+
+---
+
+## 7. 🌐 Message Translation
+
+The bot includes a **reaction-based translation system** for textual messages:  
+React with 🌐 `:globe_with_meridians:`, 🇬🇧 `:flag_gb:` or 🇺🇸 `:flag_us:` to translate a message.
+
+> ℹ️ Embeds cannot be translated automatically.
+
+---
+
+## 8. 📜 Policy Updates
+
+This policy may be updated at any time without prior notice.  
+The latest version is always available on our official GitHub:  
 🔗 [https://github.com/Nerfine/Crapules-express](https://github.com/Nerfine/Crapules-express)
 
 ---
 
 ## 📩 Contact
 
-Pour toute demande liée à vos données personnelles :  
-➡️ Ouvrez un ticket dans **Question Direction**  
-ou contactez directement **@nerfine** sur Discord.
+For any data-related inquiries:  
+➡️ Open a ticket in **Management Questions**  
+or contact **@nerfine** directly on Discord.
