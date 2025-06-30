@@ -8,7 +8,7 @@ import asyncio
 import signal
 import platform
 
-load_dotenv()  # Load environment variables from .env
+load_dotenv()
 
 token = os.getenv("DISCORD_TOKEN")
 GUILD_ID = 1368272372230000711
@@ -21,7 +21,6 @@ intents.guilds = True
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.all(), application_id=1373334216233717840)
 
 _shutting_down = False
-
 
 @bot.event
 async def on_ready():
@@ -40,7 +39,6 @@ async def on_ready():
     except Exception as e:
         print(f"❌ Failed to sync slash commands: {e}")
 
-    # Notify restart via BotLogger if applicable
     logger = bot.get_cog("BotLogger")
     changed_file = os.getenv("BOT_CHANGED_FILE", "unknown")
     if logger and changed_file != "unknown":
@@ -49,7 +47,6 @@ async def on_ready():
             title="♻️ Bot Restarted"
         )
         os.environ["BOT_CHANGED_FILE"] = "unknown"
-
 
 async def load_extensions():
     await bot.load_extension("cogs.bot_commands")
@@ -64,14 +61,13 @@ async def load_extensions():
     await bot.load_extension("cogs.bot_logger")
     print("✅ All cogs loaded successfully.")
 
-
 def setup_signal_handlers(loop):
     def sync_shutdown_handler(signum, frame):
         global _shutting_down
         if _shutting_down:
             print("[DEBUG] Signal received but shutdown is already in progress.")
             return
-
+            
         _shutting_down = True
 
         is_restarting = os.getenv("BOT_RESTARTING", "false").lower() == "true"
@@ -83,7 +79,6 @@ def setup_signal_handlers(loop):
 
     for sig in (signal.SIGINT, signal.SIGTERM):
         signal.signal(sig, sync_shutdown_handler)
-
 
 async def shutdown(manual=False, restart=False):
     global _shutting_down
@@ -104,8 +99,7 @@ async def shutdown(manual=False, restart=False):
     await asyncio.sleep(1)
     await bot.close()
     print("👋 Bot is shutting down...")
-
-
+    
 async def main():
     if not token:
         print("❌ ERROR: DISCORD_TOKEN environment variable not set.")
@@ -115,10 +109,8 @@ async def main():
     setup_signal_handlers(asyncio.get_running_loop())
     await bot.start(token)
 
-    # Clean up after restart
     if "BOT_RESTARTING" in os.environ:
         del os.environ["BOT_RESTARTING"]
-
 
 if __name__ == "__main__":
     if platform.system() == "Windows":
