@@ -107,8 +107,9 @@ All rights reserved © **Crapules Express** – [nerfine](https://github.com/ner
 
 For questions, issues, or requests:
 
-- 💬 Discord: **@nerfine**
-- 📺 Server: https://discord.gg/crxp
+- 💬 Discord: **@nerfine**  
+- 📧 Email: **nerfine@crapules-express.com**  
+- 📺 Server: https://discord.gg/crxp  
 - 🐞 GitHub Issues: [Submit here](https://github.com/Nerfine/crapules-express/issues)
 
 ---
