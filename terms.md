@@ -1,6 +1,6 @@
 # 📄 Terms of Service – Crapules Express Bot
 
-**Last updated: June 30, 2025**
+**Last updated: July 14, 2025**
 
 This Discord bot is provided by **Crapules Express** exclusively for **internal use** within its virtual VTC on *Euro Truck Simulator 2 (ETS2)*.
 
@@ -14,57 +14,59 @@ By using the Crapules Express bot, you fully and unconditionally agree to these 
 
 ## 2. 🎯 Authorized Use
 
-- The bot is strictly reserved for active members of the **Crapules Express Discord server**.
-- Any attempt to **exploit, duplicate, externally host, or reverse engineer** the bot is **strictly prohibited**.
+- The bot is strictly reserved for active members of the **Crapules Express Discord server**.  
+- Any attempt to **exploit, duplicate, redistribute, externally host, or reverse engineer** the bot is **strictly prohibited**.
 
 ---
 
 ## 3. ⚙️ Availability
 
-- The bot may be taken **offline temporarily** without notice for:
+- The bot may be taken **offline temporarily** without notice due to:  
   - Technical maintenance  
   - Feature updates  
-  - Security issues
+  - Security improvements
 
-- No guarantee of 24/7 availability is provided.
+- No guarantee of continuous 24/7 availability is provided.
 
 ---
 
 ## 4. 🚫 Prohibited Behavior
 
-Bot usage must comply with internal server rules. The following actions are forbidden:
+Users must comply with internal server and VTC rules. The following actions are forbidden:
 
-- Spamming or abusing commands, buttons, or menus  
-- Circumventing restrictions or permissions (e.g., HR, Senior HR, Management)  
-- Attempting to interfere with logs, tickets, or validation systems
+- Spamming or abusing commands, modals, buttons, or menus  
+- Circumventing role-based permissions (e.g., HR, Senior HR, Management)  
+- Interfering with logging, ticketing, recruitment, or validation processes  
 
 ---
 
 ## 5. ⚠️ Liability
 
-- **Crapules Express** and the bot developers cannot be held liable in the event of:
-  - Service interruptions  
-  - Internal bugs or errors  
-  - Accidental data loss or leaks
+- **Crapules Express** and the bot developer(s) disclaim all liability for:  
+  - Service interruptions or downtime  
+  - Software bugs, glitches, or unexpected behavior  
+  - Accidental data loss, leaks, or corruption  
 
 ---
 
 ## 6. ✏️ Modifications
 
-These terms may be **updated at any time** without prior notice.
+These Terms of Service may be **updated at any time** without prior notice.
 
-- Major changes will be announced via Discord or GitHub  
-- The latest version is always available here
+- Major updates will be announced on Discord or GitHub  
+- The latest version is always available here:  
+  🔗 [https://github.com/Nerfine/Crapules-express](https://github.com/Nerfine/Crapules-express)
 
 ---
 
 ## 📬 Contact
 
-For any questions, requests, or issues related to the bot:
+For questions, requests, or issues regarding the bot or terms:
 
 - Contact **@nerfine** on Discord  
-- Or open an issue on the [GitHub repository](https://github.com/Nerfine/crapules-express)
+- Open an issue on the [GitHub repository](https://github.com/Nerfine/crapules-express)  
+- Email: **nerfine@crapules-express.com**
 
 ---
 
-🔒 See also the [Privacy Policy](https://github.com/Nerfine/crapules-express/blob/main/PRIVACY.md)
+🔒 See also the [Privacy Policy](https://github.com/Nerfine/crapules-express/blob/main/privacy.md)
