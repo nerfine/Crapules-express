@@ -2,11 +2,14 @@
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
+import aiohttp
 
 import os
 import asyncio
 import signal
 import platform
+from utils.shutdown import shutdown
+from utils.locker_db import LockerDB
 
 load_dotenv()
 
@@ -18,19 +21,31 @@ intents.message_content = True
 intents.members = True
 intents.guilds = True
 
-bot = commands.Bot(command_prefix="!", intents=discord.Intents.all(), application_id=1373334216233717840)
+bot = commands.Bot(command_prefix="!", intents=intents, application_id=1373334216233717840)
 
 _shutting_down = False
+_bot_ready = False
+
+async def fetch_latest_github_version():
+    url = "https://api.github.com/repos/nerfine/Crapules-express/releases/latest"
+    async with aiohttp.ClientSession() as session:
+        async with session.get(url) as resp:
+            if resp.status == 200:
+                data = await resp.json()
+                return data.get("tag_name", "unknown")
+            return "unknown"
 
 @bot.event
 async def on_ready():
+    global _bot_ready
     print(f'✅ Logged in as {bot.user}')
+    latest_version = await fetch_latest_github_version()
     activity = discord.Activity(
-        type=discord.ActivityType.streaming,
-        name="🚧 Crapules Express 2.0",
-        url="https://www.twitch.tv/nerfine"
+        type=discord.ActivityType.playing,
+        name=f"{latest_version} | /commands",
+        details="discord.gg/crxp | TruckersMP: /vtc/80146"
     )
-    await bot.change_presence(activity=activity)
+    await bot.change_presence(activity=activity, status=discord.Status.online)
 
     guild = discord.Object(id=GUILD_ID)
     try:
@@ -38,7 +53,6 @@ async def on_ready():
         print(f"✅ Synced {len(synced)} slash command(s) to guild {GUILD_ID}.")
     except Exception as e:
         print(f"❌ Failed to sync slash commands: {e}")
-
     logger = bot.get_cog("BotLogger")
     changed_file = os.getenv("BOT_CHANGED_FILE", "unknown")
     if logger and changed_file != "unknown":
@@ -48,26 +62,43 @@ async def on_ready():
         )
         os.environ["BOT_CHANGED_FILE"] = "unknown"
 
+    _bot_ready = True
+
 async def load_extensions():
-    await bot.load_extension("cogs.bot_commands")
-    await bot.load_extension("cogs.permissions")
-    await bot.load_extension("cogs.bot_info")
-    await bot.load_extension("cogs.welcomer")
-    await bot.load_extension("cogs.invite_tracker")
-    await bot.load_extension("cogs.console")
-    await bot.load_extension("cogs.bump_reminder")
-    await bot.load_extension("cogs.ticket_system")
-    await bot.load_extension("cogs.recruitment_survey")
-    await bot.load_extension("cogs.bot_logger")
+    extensions = [
+        "cogs.bot_logger",
+        "cogs.bot_commands",
+        "cogs.permissions",
+        "cogs.bot_info",
+        "cogs.welcomer",
+        "cogs.invite_tracker",
+        "cogs.console",
+        "cogs.bump_reminder",
+        "cogs.ticket_system",
+        "cogs.recruitment_survey",
+        "cogs.convoy_survey",
+        "cogs.ticket_control",
+        "cogs.promotion_checker",
+    ]
+    for ext in extensions:
+        try:
+            await bot.load_extension(ext)
+            print(f"✅ Loaded {ext}")
+        except Exception as e:
+            print(f"❌ Failed to load {ext}: {e}")
     print("✅ All cogs loaded successfully.")
 
 def setup_signal_handlers(loop):
     def sync_shutdown_handler(signum, frame):
-        global _shutting_down
+        global _shutting_down, _bot_ready
         if _shutting_down:
             print("[DEBUG] Signal received but shutdown is already in progress.")
             return
-            
+
+        if not _bot_ready:
+            print("[DEBUG] Shutdown signal received before bot was ready. Ignoring.")
+            return
+
         _shutting_down = True
 
         is_restarting = os.getenv("BOT_RESTARTING", "false").lower() == "true"
@@ -80,33 +111,13 @@ def setup_signal_handlers(loop):
     for sig in (signal.SIGINT, signal.SIGTERM):
         signal.signal(sig, sync_shutdown_handler)
 
-async def shutdown(manual=False, restart=False):
-    global _shutting_down
-    if _shutting_down:
-        return
-    _shutting_down = True
-
-    print(f"[DEBUG] Shutdown called. manual={manual} restart={restart}")
-
-    logger = bot.get_cog("BotLogger")
-    changed_file = os.getenv("BOT_CHANGED_FILE", "unknown")
-
-    if logger:
-        await logger.shutdown(manual=manual, restart=restart, changed_file=changed_file)
-    else:
-        print("⚠️ BotLogger cog not loaded yet, skipping log.")
-
-    await asyncio.sleep(1)
-    await bot.close()
-    print("👋 Bot is shutting down...")
-    
 async def main():
     if not token:
         print("❌ ERROR: DISCORD_TOKEN environment variable not set.")
         return
 
+    await LockerDB.ensure_table()
     await load_extensions()
-    setup_signal_handlers(asyncio.get_running_loop())
     await bot.start(token)
 
     if "BOT_RESTARTING" in os.environ:
