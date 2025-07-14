@@ -4,46 +4,47 @@
 
 ## 🔐 Copyright
 
-This project is protected under copyright law in accordance with Articles **L111-1 and following** of the *French Intellectual Property Code*.
+This project is protected under copyright law pursuant to Articles **L111-1 et seq.** of the *French Intellectual Property Code*.
 
-The author, **Nerfine**, retains full rights to this software, even if it is distributed free of charge.
+The author, **Nerfine**, retains exclusive rights to this software, regardless of its free distribution.
 
-Any reproduction, distribution, modification, or reuse of the code without prior written permission is strictly prohibited, unless otherwise stated in the “License” section below.
+Any reproduction, distribution, modification, or reuse of the code without prior written authorization is strictly prohibited, except where explicitly allowed under the “License” section below.
 
 ---
 
 ## 📦 Authorized Use
 
-✅ Personal and non-commercial use
-✅ Clear credit to the author when used publicly
+✅ Personal and non-commercial use permitted  
+✅ Public use allowed with clear credit to the author  
 
-❌ Resale is prohibited
-❌ Removing author attribution is prohibited
-❌ Publishing a modified version without permission is prohibited
+❌ Resale or commercial distribution prohibited  
+❌ Removal or alteration of author attribution prohibited  
+❌ Publishing modified versions without prior permission prohibited  
 
 ---
 
 ## 📄 License
 
-This software is **not released under an open source license**. All use is governed by the terms above. For commercial or public adaptation, a custom license is required.
+This software is **not distributed under an open-source license**. All use is subject to the terms outlined above.  
+Commercial or public adaptations require a customized license agreement.
 
 ---
 
 ## 🗂 Work Registration
 
-The author may have timestamped or registered this work through one of the following methods:
+The author may have registered or timestamped this work through one or more of the following methods:
 
-* *Enveloppe Soleau* (INPI, France)
-* Blockchain timestamping service
-* Registration with **APP** (*Agence pour la Protection des Programmes*)
+- *Enveloppe Soleau* (INPI, France)  
+- Blockchain timestamping service  
+- Registration with **APP** (*Agence pour la Protection des Programmes*)  
 
 ---
 
 ## 📫 Contact
 
-For any request regarding **commercial licenses**, **collaboration**, or **special usage**, please contact:
-→ **nerfine** on Discord
-*(An email address can be provided upon request)*
+For inquiries related to **commercial licensing**, **collaborations**, or **special usage permissions**, please contact:  
+→ Discord: **nerfine**  
+*nerfine@crapules-express.com*
 
 ---
 
