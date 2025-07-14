@@ -1,8 +1,8 @@
 # 🚚 Crapules Express - Discord Bot ![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
 
-Welcome to the official repository of the **Crapules Express** Discord bot, developed for the virtual VTC *(trucking company)* on *Euro Truck Simulator 2* (ETS2).
+Welcome to the official repository of the **Crapules Express** Discord bot, built for the virtual VTC *(trucking company)* on *Euro Truck Simulator 2* (ETS2).
 
-This bot is designed to handle **recruitment**, **ticketing**, **convoy scheduling**, **HR processes**, and **internal moderation** for Crapules Express.
+This bot manages **recruitment**, **ticketing**, **convoy scheduling**, **HR processes**, and **internal moderation** for Crapules Express.
 
 > 🔧 **Developed by**: [nerfine](https://github.com/nerfine)
 
@@ -10,39 +10,39 @@ This bot is designed to handle **recruitment**, **ticketing**, **convoy scheduli
 
 ## ✅ Bot Status
 
-The bot is **now fully online**.  
-If it temporarily shuts down, it's likely due to a brief **internet restart**.
+The bot is **fully online** and actively maintained.  
+Temporary shutdowns may occur due to brief **internet restarts** or updates.
 
-All core systems are being actively tested.  
-Some features may still contain **minor bugs**, which are being monitored and fixed quickly.
+All core systems are under continuous testing.  
+Minor bugs may still occur and are addressed quickly.
 
-> **Note:** All previous data has been deleted for security and reliability reasons.
+> **Note:** All previous data has been deleted for security and reliability.
 
 ---
 
 ## 🚀 Early Release – Version 2.0.0
 
-The bot is in **early-access release**. While stable, some flaws may occur during usage and will be addressed immediately for the best experience.
+This is an **early-access release**. While stable, some issues may arise and will be fixed promptly for the best user experience.
 
 ---
 
-## 📦 Key Features (Live or Near-Complete)
+## 📦 Key Features
 
 - 🎟️ **Ticket System**:
   - Recruitment applications (modal form, HR pipeline)
-  - Convoy slot reservations or invitations
-  - Private questions to management
+  - Convoy slot reservations/invitations
+  - Private management questions
 - 📋 **Recruitment Process**:
   - Modal-based applications
-  - Locker system
+  - Locker system for applicants
   - Interview scheduling, rescheduling & override
-- 🧾 **Convoy Tools** (in progress):
+- 🧾 **Convoy Tools**:
   - Convoy tickets with form-based input
   - Staff-side review, approval, or rejection
 - 🔧 **HR/Moderation Commands**:
   - Blacklist & unblacklist users
   - Show user info and status
-  - Add/remove trial drivers or fire drivers
+  - Add/remove trial drivers, fire drivers
 - ⚙️ **Admin & Utility Commands**:
   - `/bot`, `/commands`, `/ticket-setup`, `!restart`, `!shutdown`
 - 🔐 **Role-based permissions system** with owner override
@@ -50,33 +50,37 @@ The bot is in **early-access release**. While stable, some flaws may occur durin
   - Console logs and errors sent to Discord
   - Invite tracker & welcomer alerts
   - `/bump` tracking and reminders
+- 🛍️ **Steam Promotion Checker**:
+  - Monitors ETS2 and DLC discounts
+  - Groups discounted DLCs by category for easy browsing
+  - Attaches full DLC sale list if too many for a single embed
 
 ---
 
 ## 💬 Slash Commands Overview
 
-| Command | Description |
-|---------|-------------|
-| `/bot`  | Show bot info: version, ping, uptime, developer |
-| `/commands` | Lists all available commands |
-| `/user-info` | Displays a user’s HR/recruitment status |
-| `/locker-show` | Show a user's locker channel |
-| `/blacklist` / `/unblacklist` | Moderate access to recruitment |
-| `/interview-startnow` | Start an interview manually |
-| `/fire-driver` | Remove a driver from the VTC |
+| Command                | Description                                   |
+|------------------------|-----------------------------------------------|
+| `/bot`                 | Show bot info: version, ping, uptime, developer |
+| `/commands`            | Lists all available commands                  |
+| `/user-info`           | Displays a user’s HR/recruitment status       |
+| `/locker-show`         | Show a user's locker channel                  |
+| `/blacklist` / `/unblacklist` | Moderate access to recruitment         |
+| `/interview-startnow`  | Start an interview manually                   |
+| `/fire-driver`         | Remove a driver from the VTC                  |
 
-*(More commands listed in `/commands` output in Discord)*
+*(More commands are listed in `/commands` output in Discord)*
 
 ---
 
 ## 🔐 Privacy Policy
 
-Crapules Express is committed to respecting user privacy.
+Crapules Express is committed to user privacy.
 
 - ✅ [Privacy Policy](https://github.com/Nerfine/crapules-express/blob/main/privacy.md)
-- 📁 Data is stored locally on a private VPS
+- 📁 Data stored locally on a private VPS
 - 🗑️ Inactive recruitment tickets auto-close after 24h
-- 👤 Access restricted to authorized HR and management roles only
+- 👤 Access restricted to authorized HR and management roles
 
 ---
 
@@ -115,4 +119,4 @@ For questions, issues, or requests:
 
 ---
 
-Thank you for your support and feedback during the development of Crapules Express 2.0.0!
+Thank you for your support and feedback during the development of Crapules
