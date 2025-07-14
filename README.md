@@ -20,12 +20,6 @@ Minor bugs may still occur and are addressed quickly.
 
 ---
 
-## 🚀 Early Release – Version 2.0.0
-
-This is an **early-access release**. While stable, some issues may arise and will be fixed promptly for the best user experience.
-
----
-
 ## 📦 Key Features
 
 - 🎟️ **Ticket System**:
@@ -119,4 +113,4 @@ For questions, issues, or requests:
 
 ---
 
-Thank you for your support and feedback during the development of Crapules
+Thank you for your support and feedback during the development of Crapules Express
