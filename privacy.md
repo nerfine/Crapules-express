@@ -1,6 +1,6 @@
 # 🔒 Privacy Policy – Crapules Express Bot
 
-**Last updated: June 30, 2025**
+**Last updated: July 14, 2025**
 
 Crapules Express is committed to respecting the privacy of its users.  
 This policy explains how data collected by our Discord bot is processed, stored, and protected.
@@ -9,91 +9,97 @@ This policy explains how data collected by our Discord bot is processed, stored,
 
 ## 1. 📥 Data Collected
 
-The bot may collect the following data:
+The bot collects the following data strictly for operational purposes:
 
-- Discord identifiers (username, ID)  
-- Recruitment form responses  
-- Internal information (HR status, blacklist status, application attempts, profile records, history)  
-- Automated logs of recruitment, blacklist/whitelist actions, user departures
+- Discord identifiers (username, user ID)  
+- Recruitment form responses submitted via modal dialogs  
+- Internal HR-related data (recruitment status, blacklist/whitelist flags, application attempts, interview scheduling)  
+- Logs of recruitment activities, blacklist/whitelist changes, user departures, and ticket events  
 
-> 🔒 No personal data outside of Discord is collected.
+> 🔒 No personal data outside of Discord is collected or stored.
 
 ---
 
 ## 2. 🎯 Purpose of Data Use
 
-Collected data is exclusively used to:
+Collected data is used exclusively to:
 
-- Manage applications within the VTC  
-- Track HR processes (attempts, statuses, trial periods)  
-- Archive and follow up on driver profiles  
-- Power automated systems: tickets, profiles, logs, notifications  
-- Ensure efficient moderation (blacklists, auto-denials)
-
----
-
-## 3. 🗄️ Data Storage
-
-- Temporary data is kept in private Discord channels accessible only to staff.  
-- Critical data is stored **locally** on a **self-hosted VPS**, located on a **secured personal laptop owned by the administrator**.
-
-> No data is shared with external services or third-party companies.
+- Manage recruitment applications and driver profiles within the VTC  
+- Track HR workflows, trial periods, and recruitment pipeline progress  
+- Enable automated ticketing, convoy invitations, and notifications  
+- Provide role-based access and enforce moderation policies (blacklisting, auto-denial after attempts)  
+- Generate logs and audit trails for internal transparency and troubleshooting
 
 ---
 
-## 4. 🕓 Deletion & Inactivity
+## 3. 🗄️ Data Storage & Security
 
-### Recruitment:
-
-- If a user does not click the "Start" button within **24 hours**, the channel is automatically deleted.  
-- No answers are **ever saved** unless the questionnaire is started.
-
-### Internal Data:
-
-- Applications are automatically deleted **after 30 days**.  
-- Profiles are archived if a driver leaves the server.  
-- Blacklisted users’ data is kept unless a removal request is submitted.
-
-> 🧪 An automatic deletion feature is currently in testing to improve privacy and efficiency.
+- Temporary recruitment data resides in private Discord channels accessible only to authorized HR and management roles.  
+- All critical and persistent data is stored **locally** on a **self-hosted VPS** running on a **secured personal machine owned by the Lead Developer (Nerfine)**.  
+- No data is transmitted to or stored by third-party services.
 
 ---
 
-## 5. 🔐 Restricted Access
+## 4. 🕓 Data Retention and Deletion
 
-Only the following roles have access to the data:
+### Recruitment Channels
 
-- Lead Developer (Nerfine)
+- Inactive recruitment tickets (no "Start" interaction) are deleted automatically after **24 hours**.  
+- No form responses are saved unless the recruitment questionnaire is initiated.
+
+### Stored Data
+
+- Recruitment applications and related data are deleted **after 30 days** if the user does not join or complete the process.  
+- Driver profiles are archived automatically if the user leaves the Discord server.  
+- Blacklist records are retained until a user requests removal or reconciliation.
+
+> 🧪 Automated privacy-enhancing deletion features are in active development.
 
 ---
 
-## 6. 🧹 Data Deletion (on request)
+## 5. 🔐 Access Control
 
-Any user may request **immediate deletion** of their data at any time by:
+Data access is strictly limited to:
 
-- Opening a ticket in the **Management Questions** section  
-- Or directly contacting **@nerfine** on Discord
+- HR personnel  
+- Senior HR staff  
+- Management team  
+- Lead Developer (**Nerfine**)
+
+No external or unauthorized users have access to this data.
 
 ---
 
-## 7. 🌐 Message Translation
+## 6. 🧹 User Data Deletion Requests
 
-The bot includes a **reaction-based translation system** for textual messages:  
-React with 🌐 `:globe_with_meridians:`, 🇬🇧 `:flag_gb:` or 🇺🇸 `:flag_us:` to translate a message.
+Users may request immediate deletion of their personal data by:
 
-> ℹ️ Embeds cannot be translated automatically.
+- Opening a ticket in the **Management Questions** channel  
+- Contacting **@nerfine** directly on Discord  
+- Sending an email to **nerfine@crapules-express.com**
+
+---
+
+## 7. 🌐 Message Translation Feature
+
+The bot supports reaction-based message translation for non-embed textual messages:  
+React with 🌐 `:globe_with_meridians:`, 🇬🇧 `:flag_gb:`, or 🇺🇸 `:flag_us:` to translate a message via DeepL API.
+
+> ℹ️ Note: Embedded messages cannot be translated automatically.
 
 ---
 
 ## 8. 📜 Policy Updates
 
 This policy may be updated at any time without prior notice.  
-The latest version is always available on our official GitHub:  
+The latest version is always available at:  
 🔗 [https://github.com/Nerfine/Crapules-express](https://github.com/Nerfine/Crapules-express)
 
 ---
 
 ## 📩 Contact
 
-For any data-related inquiries:  
-➡️ Open a ticket in **Management Questions**  
-or contact **@nerfine** directly on Discord.
+For privacy concerns or data-related inquiries:  
+➡️ Open a ticket in **Management Questions** on Discord  
+➡️ Contact **@nerfine** on Discord  
+➡️ Email: **nerfine@crapules-express.com**
