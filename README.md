@@ -1,4 +1,4 @@
-# 🚚 Crapules Express - Discord Bot ![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
+# 🚚 Crapules Express - Discord Bot ![Version](https://img.shields.io/badge/version-2.2.0-blue.svg)
 
 Welcome to the official repository of the **Crapules Express** Discord bot, built for the virtual VTC *(trucking company)* on *Euro Truck Simulator 2* (ETS2).
 
